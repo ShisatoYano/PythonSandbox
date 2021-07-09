@@ -1,0 +1,42 @@
+{
+	"name": "PythonSandbox39",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"workbench.editor.enablePreview":false,
+    "python.languageServer": "Pylance",
+		"python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+      "--ignore=E402,E501"
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+      "--ignore",
+      "E402,E501",
+      "--max-line-length",
+      "150"
+    ]
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"mhutchie.git-graph",
+		"eamodio.gitlens",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "coenraads.bracket-pair-colorizer"
+	],
+
+	// for displaying gui window
+	// permission to access all of devices
+	"runArgs": [
+		"--privileged"
+	],
+
+	// install required python libraries
+	"postCreateCommand": "pip install -r requirements.txt",
+}
