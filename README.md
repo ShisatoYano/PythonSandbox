@@ -59,3 +59,12 @@ Open terminal and confirm Python's version
 Execute sample code  
 The following graph window will be shown  
 ![](docs/img/sample_code.PNG)  
+
+## Reference
+* [VcXsrvの自動起動](https://qiita.com/nab/items/d4e6eb54815a993382af) 
+* [Docker Desktop for Windows で X Window を使ってGUI表示](https://wisteriahill.sakura.ne.jp/CMS/WordPress/2020/09/02/docker-desktop-for-windows-x-window-gui/)  
+* [Docker x 可視化がうまくいかずハマったのでまとめてみた！](https://qiita.com/oreyutarover/items/cca3511012b6ad97a1ce)  
+* [WSL2＋Ubuntu 20.04でGUIアプリを動かす](https://astherier.com/blog/2020/08/run-gui-apps-on-wsl2/)  
+* [vscodeのdevcontainer内でelectronのGUIアプリを作りたかった](https://blog.ikappio.com/try-creating-electron-gui-app-in-devcontainer-of-vscode/)  
+* [【venv不要】Remote Containersで作る最強のPython開発環境【VSCode/Docker】](https://qiita.com/0MeO/items/1fc3995e568d2c95569e)  
+ 
